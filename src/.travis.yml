@@ -6,3 +6,5 @@ services:
 before-install:
   - docker build -t venkatwe/docker-react .
 
+script:
+  - docker run venkatwe/docker-react
