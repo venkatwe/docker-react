@@ -1,0 +1,8 @@
+SUDO: required
+
+services:
+  - docker
+
+before-install:
+  - docker build -t venkatwe/docker-react .
+
